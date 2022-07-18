@@ -1,0 +1,7 @@
+
+tensorflow>=2.1.0
+numpy>=1.18.2
+absl-py>=0.9.0
+matplotlib>=3.2.1
+pandas>=1.0.3
+Pillow>=7.0.0
