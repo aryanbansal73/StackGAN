@@ -24,9 +24,9 @@ python data_download.py
 unzip birds.zip
 ```
 #### Training
-- The `model.py` file contains the bare minimum code to run the stage 1 and stage 2 architecture. It automatically stores the weights after the specified/default number of epochs have completed. Note that the weights will be stored at the same directory level as `model.py`.
+- The `stack_prac.py` file contains the bare minimum code to run the stage 1 and stage 2 architecture. It automatically stores the weights after the specified/default number of epochs have completed. Note that the weights will be stored at the same directory level as `stack_prac.py`.
 ```
-python model.py
+python stack_prac.py
 ```
 #### Architecture
 <img src="./assets/stackgan_framework.jpg" width="850px" height="370px"/>
@@ -58,4 +58,4 @@ python model.py
 4. **Learning Deep Representations of Fine-Grained Visual Descriptions** [[Arxiv Link](https://arxiv.org/abs/1605.05395)]
 ---
 #### Note
-This is the code I have submitted to TensorFlow for Google Summer of Code. Hence the attributions and the License is for "TensorFlow Authors" and not "Vishal V". This code is under the MIT License.
+This code is under the MIT License.
