@@ -10,6 +10,11 @@ matplotlib==2.2.3
 pandas==0.23.4
 Pillow==6.1.0
 ```
+### Create 3 folders (test, weights,results_stage2) in your current working directory.
+1. <b>weights </b> (your model weights will be saved here)
+2. <b>test </b> (generated images from our stage I StackGAN)
+3. <b>results_stage2 </b> will have the generated images from stage2 fo StackGAN
+
 #### Downloads
 - To download all the dependencies, simply execute 
 ```
